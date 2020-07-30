@@ -18,7 +18,7 @@ from mediawords.util.web.user_agent import UserAgent, Response, Request
 
 log = create_logger(__name__)
 
-__SOLR_STARTUP_TIMEOUT = 2 * 60
+__SOLR_STARTUP_TIMEOUT = 4 * 60
 """Timeout of Solr starting up."""
 
 __QUERY_HTTP_TIMEOUT = 15 * 60

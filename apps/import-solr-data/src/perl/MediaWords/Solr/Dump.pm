@@ -64,7 +64,7 @@ Readonly my $DEFAULT_STORIES_QUEUE_TABLE => 'solr_import_stories';
 Readonly my $DEFAULT_THROTTLE => 60;
 
 # if there are fewer stories than this, sleep
-Readonly my $MIN_STORIES_TO_PROCESS => 1000;
+Readonly my $MIN_STORIES_TO_PROCESS => 10;
 
 # mark date before generating dump for storing in solr_imports after successful import
 my $_import_date;
